@@ -9,8 +9,12 @@ Install with [npm](https://npmjs.org/package/broccoli-styl): `npm install --save
 ## Examples
 
 ```js
+var calc = require('rework-calc');
 var styl = require('broccoli-styl');
-tree = styl(tree, { whitespace: true });
+
+tree = styl(tree, { use: function (css) { 
+    css.use(calc); 
+}});
 ```
 
 ## API
@@ -20,6 +24,14 @@ tree = styl(tree, { whitespace: true });
 Initialize a new styl with the given string of regular CSS or whitespace-significant style CSS.
 
 ## Options
+
+### use
+
+Type: `Boolean`  
+Default: `undefined`
+
+Accepts a function that gives you the ability to interact with styl before 
+compiling. Useful for adding on plugins, etc.
 
 ### whitespace
 

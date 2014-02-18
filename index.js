@@ -1,7 +1,7 @@
 'use strict';
 
 var Filter = require('broccoli-filter');
-var styl = require('styl');
+var Styl = require('styl');
 
 /**
  * Initialize `StylFilter` with options
@@ -46,7 +46,13 @@ StylFilter.prototype.targetExtension = 'css';
  */
 
 StylFilter.prototype.processString = function (str) {
-    return styl(str, this.opts).toString();
+    var styl = new Styl(str, this.opts);
+
+    if (this.opts.use) {
+        this.opts.use(styl);
+    }
+
+    return styl.toString();
 };
 
 /**
