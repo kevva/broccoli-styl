@@ -8,6 +8,7 @@ var Styl = require('styl');
  *
  * Options:
  *
+ *   - `use` Accepts a function that gives you the ability to interact with styl
  *   - `whitespace` Utilize CSS whitespace transformations
  *
  * @param {Object} inputTree
