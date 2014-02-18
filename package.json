@@ -1,0 +1,44 @@
+{
+  "name": "broccoli-styl",
+  "version": "0.1.0",
+  "description": "Preprocess CSS with Styl",
+  "keywords": [
+    "broccoli-plugin",
+    "compile",
+    "css",
+    "gulpplugin",
+    "preprocess",
+    "preprocessor",
+    "styl",
+    "style",
+    "stylesheet"
+  ],
+  "homepage": "https://github.com/kevva/broccoli-styl",
+  "bugs": "https://github.com/kevva/broccoli-styl/issues",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "license": "MIT",
+  "repository": "git://github.com/kevva/broccoli-styl.git",
+  "scripts": {
+    "test": "broccoli build test/tmp && mocha --reporter list"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "broccoli-filter": "0.0.1",
+    "styl": "~0.2.7"
+  },
+  "devDependencies": {
+    "broccoli": "~0.1.1",
+    "mocha": "~1.17.0",
+    "rimraf": "~2.2.6"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
