@@ -17,7 +17,7 @@ var styl = require('styl');
 
 function StylFilter(inputTree, opts) {
     if (!(this instanceof StylFilter)) {
-        return new StylFilter(inputTree);
+        return new StylFilter(inputTree, opts);
     }
 
     this.inputTree = inputTree;
