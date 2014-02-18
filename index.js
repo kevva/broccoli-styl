@@ -22,7 +22,7 @@ function StylFilter(inputTree, opts) {
     }
 
     this.inputTree = inputTree;
-    this.opts = opts;
+    this.opts = opts || {};
 }
 
 /**

@@ -27,7 +27,7 @@ Initialize a new styl with the given string of regular CSS or whitespace-signifi
 
 ### use
 
-Type: `Boolean`  
+Type: `Function`  
 Default: `undefined`
 
 Accepts a function that gives you the ability to interact with styl before 
