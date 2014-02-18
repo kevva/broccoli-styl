@@ -6,7 +6,6 @@
     "broccoli-plugin",
     "compile",
     "css",
-    "gulpplugin",
     "preprocess",
     "preprocessor",
     "styl",
