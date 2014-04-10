@@ -1,4 +1,4 @@
-# broccoli-styl [![Build Status](https://travis-ci.org/kevva/broccoli-styl.png?branch=master)](http://travis-ci.org/kevva/broccoli-styl)
+# broccoli-styl [![Build Status](https://travis-ci.org/kevva/broccoli-styl.svg?branch=master)](https://travis-ci.org/kevva/broccoli-styl)
 
 > Preprocess CSS with [Styl](https://github.com/visionmedia/styl).
 
