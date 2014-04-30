@@ -1,6 +1,6 @@
 # broccoli-styl [![Build Status](https://travis-ci.org/kevva/broccoli-styl.svg?branch=master)](https://travis-ci.org/kevva/broccoli-styl)
 
-> Preprocess CSS with [Styl](https://github.com/visionmedia/styl).
+> Preprocess CSS with [Styl](https://github.com/visionmedia/styl)
 
 ## Install
 
@@ -44,4 +44,4 @@ Utilize CSS [whitespace transformations](https://github.com/visionmedia/styl#whi
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Kevin Mårtensson](https://github.com/kevva)
+MIT © [Kevin Mårtensson](https://github.com/kevva)
