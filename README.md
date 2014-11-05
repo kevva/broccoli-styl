@@ -15,7 +15,7 @@ var calc = require('rework-calc');
 var styl = require('broccoli-styl');
 
 tree = styl(tree, { use: function (css) {
-    css.use(calc);
+	css.use(calc);
 }});
 ```
 
