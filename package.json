@@ -1,6 +1,6 @@
 {
   "name": "broccoli-styl",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Preprocess CSS with Styl",
   "license": "MIT",
   "repository": "kevva/broccoli-styl",
