@@ -1,4 +1,4 @@
-# broccoli-styl [![Build Status](https://travis-ci.org/kevva/broccoli-styl.svg?branch=master)](https://travis-ci.org/kevva/broccoli-styl)
+# broccoli-styl [![Build Status](http://img.shields.io/travis/kevva/broccoli-styl.svg?style=flat)](https://travis-ci.org/kevva/broccoli-styl)
 
 > Preprocess CSS with [Styl](https://github.com/visionmedia/styl)
 
@@ -29,8 +29,7 @@ Initialize a new styl with the given string of regular CSS or whitespace-signifi
 
 ### use
 
-Type: `Function`  
-Default: `undefined`
+Type: `Function`
 
 Accepts a function that gives you the ability to interact with styl before
 compiling. Useful for adding on plugins, etc.
