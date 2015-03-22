@@ -2,11 +2,13 @@
 
 > Preprocess CSS with [Styl](https://github.com/visionmedia/styl)
 
+
 ## Install
 
 ```bash
-$ npm install --save broccoli-styl
+$ npm install --save-dev broccoli-styl
 ```
+
 
 ## Usage
 
@@ -19,9 +21,10 @@ tree = styl(tree, {use: function (css) {
 }});
 ```
 
+
 ## API
 
-### styl(tree, opts)
+### styl(tree, options)
 
 Initialize a new styl with the given string of regular CSS or whitespace-significant style CSS.
 
@@ -29,17 +32,18 @@ Initialize a new styl with the given string of regular CSS or whitespace-signifi
 
 ### use
 
-Type: `Function`
+Type: `function`
 
 Accepts a function that gives you the ability to interact with styl before
 compiling. Useful for adding on plugins, etc.
 
 ### whitespace
 
-Type: `Boolean`  
+Type: `boolean`  
 Default: `false`
 
 Utilize CSS [whitespace transformations](https://github.com/visionmedia/styl#whitespace-significant-syntax).
+
 
 ## License
 
