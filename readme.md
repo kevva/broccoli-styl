@@ -5,7 +5,7 @@
 
 ## Install
 
-```bash
+```
 $ npm install --save-dev broccoli-styl
 ```
 
@@ -16,9 +16,11 @@ $ npm install --save-dev broccoli-styl
 var calc = require('rework-calc');
 var styl = require('broccoli-styl');
 
-tree = styl(tree, {use: function (css) {
-	css.use(calc);
-}});
+tree = styl(tree, {
+	use: function (css) {
+		css.use(calc);
+	}
+});
 ```
 
 
@@ -28,9 +30,7 @@ tree = styl(tree, {use: function (css) {
 
 Initialize a new styl with the given string of regular CSS or whitespace-significant style CSS.
 
-## Options
-
-### use
+#### options.use(css)
 
 Type: `function`
 
