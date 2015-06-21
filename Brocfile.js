@@ -1,5 +1,4 @@
 'use strict';
-
 var reworkCalc = require('rework-calc');
 var styl = require('./');
 
